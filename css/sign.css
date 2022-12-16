@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    transition: all 1s;
+}
+
+.image:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+.navbar {
+    background-color: white;
+}
+
+.arow {
+    width: 40px;
+    height: 40px;
+    background-color:darkslategrey;
+    display: none;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    border-radius: 10px;
+
+}
+
+.arow i {
+    font-size: 25px;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.back {
+    background-image: url(https://cdn.wallpapersafari.com/31/50/dNQTbX.jpg);
+    background-repeat: repeat-x repeat-y;
+
+}
+
+.back2 {
+    background-image: url(https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=);
+    background-repeat: repeat-x repeat-y;
+
+}
+.baco {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmHWm4HR0e35sDkLnznH85nm6LGzPGU7JLt70T8TsxtC0SAWtsFls3vsNyWcDKzCSE19g&usqp=CAU);
+    background-repeat: repeat-x repeat-y;
+
+}
+
+.baco h5 {
+    color: white;
+font-size: 15px;
+
+}
+
+.baco h5 del{
+    color: red;
+
+}
+
+.baco button{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    /* font-weight: bold; */
+    padding: 10px;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+.image50 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
